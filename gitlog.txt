@@ -1,0 +1,25 @@
+Script started on 2022-05-30 12:05:18+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="168" LINES="44"]
+(base) ]0;saigodha@TIGER01964: ~/git_practise/mle_training[01;32msaigodha@TIGER01964[00m:[01;34m~/git_practise/mle_training[00m$ ls
+README.md  env.yml  gitlog.txt  nonstandardcode.py
+(base) ]0;saigodha@TIGER01964: ~/git_practise/mle_training[01;32msaigodha@TIGER01964[00m:[01;34m~/git_practise/mle_training[00m$ lssudo nano .gitignore[10Pgit statussudo nano .gitignorels[K[Kflake [K8 nonstandardcode.py 
+nonstandardcode.py:63:80: E501 line too long (94 > 79 characters)
+nonstandardcode.py:64:80: E501 line too long (99 > 79 characters)
+nonstandardcode.py:77:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:79:80: E501 line too long (92 > 79 characters)
+nonstandardcode.py:91:80: E501 line too long (86 > 79 characters)
+nonstandardcode.py:92:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:93:80: E501 line too long (90 > 79 characters)
+nonstandardcode.py:96:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:124:80: E501 line too long (99 > 79 characters)
+nonstandardcode.py:140:80: E501 line too long (85 > 79 characters)
+nonstandardcode.py:158:80: E501 line too long (95 > 79 characters)
+nonstandardcode.py:159:80: E501 line too long (101 > 79 characters)
+nonstandardcode.py:160:80: E501 line too long (103 > 79 characters)
+nonstandardcode.py:161:80: E501 line too long (105 > 79 characters)
+nonstandardcode.py:164:80: E501 line too long (83 > 79 characters)
+(base) ]0;saigodha@TIGER01964: ~/git_practise/mle_training[01;32msaigodha@TIGER01964[00m:[01;34m~/git_practise/mle_training[00m$ ^[[Aflake8 nonstandardcode.py --max-line-length=150
+(base) ]0;saigodha@TIGER01964: ~/git_practise/mle_training[01;32msaigodha@TIGER01964[00m:[01;34m~/git_practise/mle_training[00m$ conda activate mle-dev
+(mle-dev) ]0;saigodha@TIGER01964: ~/git_practise/mle_training[01;32msaigodha@TIGER01964[00m:[01;34m~/git_practise/mle_training[00m$ exit
+exit
+
+Script done on 2022-05-30 12:32:13+05:30 [COMMAND_EXIT_CODE="0"]
